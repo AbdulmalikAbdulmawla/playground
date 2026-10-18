@@ -20,7 +20,7 @@ Teaching resources and exercise code from seminars on computational design, para
 urban analysis, and open data.
 
 **Silly games**  
-Small fun things, e.g. `silly-games/yasser-boids`: a boids swarm that visits the letters of a name.
+Small fun things, e.g. `silly-games/yasser-boids`: a boids swarm on a name, written as a test of my local AI box (trial log in its README).
 
 **Prototypes**  
 Early-stage ideas, quick experiments, things that may or may not go anywhere.
