@@ -11,7 +11,8 @@ with their neighbours. Grey = roaming · colour = heading to, or riding, the let
 ## Run
 
 ```
-python yasser_swarm.py
+python yasser_swarm.py     # the free swarm (rounds 4–5)
+python yasser_boids.py     # the first version: boids that stay on the letters (rounds 1–3)
 ```
 
 Plain Python, nothing to install (uses tkinter). **Space** pauses, **click** scatters nearby boids.
@@ -30,8 +31,8 @@ separation and alignment strength) are the constants at the top of the file.
 
 ## The trials
 
-Rounds 1–3 built the first version (boids that stay on the letters all the time). Rounds 4–5
-changed the behaviour to the free swarm in this folder. Before round 4, the checker wrote its
+Rounds 1–3 built the first version, `yasser_boids.py` (boids that stay on the letters all the
+time). Rounds 4–5 changed the behaviour to the free swarm, `yasser_swarm.py`. Before round 4, the checker wrote its
 8-point acceptance test before the model saw the task.
 
 | Round | Task | Box time | Errors the local model made (found by running it) | What we sent back | Result |
